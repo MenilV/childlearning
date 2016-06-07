@@ -2,18 +2,20 @@
   "name": "child_learning",
   "version": "0.0.1",
   "dependencies": {
-    "restify": "latest",
+    "fs": "latest",
+    "mongodb": "latest",
     "mongoose": "latest",
-    "fs":"latest",
-    "mongodb":"latest"
+    "nodemon": "latest",
+    "restify": "latest"
   },
   "engines": {
     "node": ">=0.10.0"
   },
   "repository": {
-  "type": "git",
-  "url": "git:menilv@bitbucket.org/menilv/child-learning-backend.git"
+    "type": "git",
+    "url": "git:menilv@bitbucket.org/menilv/child-learning-backend.git"
   },
-   "license":{
-   	"license": "UNLICENSED"}
+  "license": {
+    "license": "UNLICENSED"
+  }
 }
