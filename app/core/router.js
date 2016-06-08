@@ -18,7 +18,7 @@ server
 
 // User Start
 server.post("/user", controllers.user.createUser)
-
+server.put("/user", controllers.user.loginUser)
 // User End
 
 // Activity Start

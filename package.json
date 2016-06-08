@@ -6,7 +6,8 @@
     "mongodb": "latest",
     "mongoose": "latest",
     "nodemon": "latest",
-    "restify": "latest"
+    "restify": "latest",
+    "basic-auth":"latest"
   },
   "engines": {
     "node": ">=0.10.0"
