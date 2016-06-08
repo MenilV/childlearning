@@ -11,7 +11,7 @@ exports.createUser = function(req, res, next) {
     User.find({"username": req.body.username}, function(err, oldUserModel) {
 
         if (err) { 
-            res.status(401)
+            res.status(500)
             res.json({
             	"message": "Error occured: " + err
             })
@@ -49,7 +49,7 @@ exports.loginUser = function(req, res, next){
 		if(process.env.environment === 'debug')
 			{
 				console.log(user[0]);
-				// console.log(req.headers);
+				console.log(req.headers);
 				console.log(authUser);
 			}
 		if(err){
