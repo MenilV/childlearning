@@ -37,7 +37,3 @@ Node setup:
 	* run 'npm install' from the directory where 'package.json' is located to get dependencies
 	* run 'node server.js' or 'nodemon server.js' for autorestart
 ==========================
-
-Added OpenShift
-
-

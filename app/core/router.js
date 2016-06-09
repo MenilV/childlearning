@@ -17,9 +17,16 @@ server
     .use(restify.bodyParser())
 
 // User Start
-server.post("/user", controllers.user.createUser)
-server.put("/user", controllers.user.loginUser)
+server.post("/user", controllers.user.createUser) // register user
+server.get("/user", controllers.user.loginUser) // login user
 // User End
+
+// Child Start
+// server.post("/child", controllers.child.createChild) // create child
+// server.put("/child", controllers.child.editChild) // edit child
+// server.get("/child", controllers.child.getChildren) // get children
+// server.del("/child", controllers.child.deleteChild) // delete child
+// Child End
 
 // Activity Start
 server.post("/activity", controllers.activity.createActivity)
